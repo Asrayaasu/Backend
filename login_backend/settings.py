@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'login_backend.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://sample_f6qn_user:9YFMiMrXOGxfjz7Yz5mWPjiy8suqgcR0@dpg-cupc0a56l47c73ckg8g0-a.oregon-postgres.render.com/sample_f6qn',
         conn_max_age=600
     )
 }
